@@ -1,0 +1,573 @@
+{
+  "threshold": 10,
+  "budget": 20,
+  "quasi_identifiers": [
+    "age_band",
+    "sex",
+    "region",
+    "income_band",
+    "device_os"
+  ],
+  "measure": "donor_spend.total_spend_gbp, sum",
+  "donors": 800,
+  "seeds": {
+    "7": {
+      "attack_per_session": {
+        "targets_with_declared_values": 800,
+        "unique_or_small_on_some_dims": 800,
+        "never_below_threshold": 0,
+        "exact_total_recovered": 800,
+        "of_which_one_person": 324,
+        "of_which_small_group": 476,
+        "small_group_sizes": {
+          "8": 127,
+          "7": 88,
+          "6": 74,
+          "9": 83,
+          "5": 65,
+          "4": 28,
+          "3": 11
+        },
+        "blocked_by_an_unreleasable_query": 0,
+        "dims_needed": {
+          "3": 394,
+          "4": 281,
+          "2": 47,
+          "5": 78
+        },
+        "queries_per_recovery_median": 8.0,
+        "sessions_per_recovery": {
+          "2": 526,
+          "4": 73,
+          "3": 121,
+          "6": 34,
+          "5": 33,
+          "7": 6,
+          "8": 6,
+          "9": 1
+        },
+        "sessions_per_recovery_max": 9,
+        "max_abs_error": 0.0
+      },
+      "attack_seconds": 235.8,
+      "shared_ledger": {
+        "targets": 40,
+        "queries": 556,
+        "statuses": {
+          "released": 86,
+          "denied": 470
+        },
+        "targets_with_every_query_released": 0,
+        "seconds": 48.9
+      },
+      "ordinary_under_shared_ledger": {
+        "tables": 75,
+        "alone_statuses": {
+          "released": 3,
+          "redacted": 70,
+          "denied": 2
+        },
+        "shared_ledger_orders": 10,
+        "shared_ledger_refused_min": 7,
+        "shared_ledger_refused_median": 9.5,
+        "shared_ledger_refused_max": 11,
+        "most_often_refused": [
+          [
+            "sum by sex x region x income_band",
+            8
+          ],
+          [
+            "sum by age_band x sex x income_band",
+            7
+          ],
+          [
+            "sum by income_band x device_os",
+            7
+          ],
+          [
+            "sum by age_band x sex x region",
+            6
+          ],
+          [
+            "sum by region x device_os",
+            6
+          ],
+          [
+            "sum by region",
+            6
+          ],
+          [
+            "sum by sex x device_os",
+            5
+          ],
+          [
+            "sum by age_band x income_band x device_os",
+            5
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "donor": "D00000",
+          "dims": [
+            "age_band",
+            "sex",
+            "region"
+          ],
+          "size": 8,
+          "recovered_set_size": 8,
+          "true_total": 584.92,
+          "recovered_total": 584.92,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00001",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 7,
+          "recovered_set_size": 7,
+          "true_total": 107.42,
+          "recovered_total": 107.42,
+          "abs_error": 0.0,
+          "sessions": 4,
+          "asked": 19,
+          "queries": 16,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00002",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 15.95,
+          "recovered_total": 15.95,
+          "abs_error": 0.0,
+          "sessions": 4,
+          "asked": 19,
+          "queries": 16,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00003",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 15.54,
+          "recovered_total": 15.54,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 17,
+          "queries": 16,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00004",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 8,
+          "recovered_set_size": 8,
+          "true_total": 196.29,
+          "recovered_total": 196.29,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0
+        }
+      ]
+    },
+    "11": {
+      "attack_per_session": {
+        "targets_with_declared_values": 800,
+        "unique_or_small_on_some_dims": 800,
+        "never_below_threshold": 0,
+        "exact_total_recovered": 800,
+        "of_which_one_person": 303,
+        "of_which_small_group": 497,
+        "small_group_sizes": {
+          "6": 113,
+          "7": 112,
+          "8": 83,
+          "9": 102,
+          "5": 50,
+          "4": 27,
+          "3": 8,
+          "2": 2
+        },
+        "blocked_by_an_unreleasable_query": 0,
+        "dims_needed": {
+          "3": 382,
+          "4": 257,
+          "5": 90,
+          "2": 71
+        },
+        "queries_per_recovery_median": 8.0,
+        "sessions_per_recovery": {
+          "2": 501,
+          "4": 58,
+          "7": 28,
+          "3": 147,
+          "9": 4,
+          "6": 20,
+          "5": 37,
+          "8": 5
+        },
+        "sessions_per_recovery_max": 9,
+        "max_abs_error": 0.0
+      },
+      "attack_seconds": 277.8,
+      "shared_ledger": {
+        "targets": 40,
+        "queries": 580,
+        "statuses": {
+          "released": 45,
+          "denied": 535
+        },
+        "targets_with_every_query_released": 0,
+        "seconds": 77.6
+      },
+      "ordinary_under_shared_ledger": {
+        "tables": 75,
+        "alone_statuses": {
+          "released": 3,
+          "redacted": 67,
+          "denied": 5
+        },
+        "shared_ledger_orders": 10,
+        "shared_ledger_refused_min": 7,
+        "shared_ledger_refused_median": 8.5,
+        "shared_ledger_refused_max": 9,
+        "most_often_refused": [
+          [
+            "sum by age_band x sex x region",
+            10
+          ],
+          [
+            "sum by sex x income_band x device_os",
+            8
+          ],
+          [
+            "sum by sex x region x income_band",
+            8
+          ],
+          [
+            "sum by age_band",
+            8
+          ],
+          [
+            "sum by age_band x sex x income_band",
+            8
+          ],
+          [
+            "sum by age_band x device_os",
+            8
+          ],
+          [
+            "sum by sex x region x device_os",
+            7
+          ],
+          [
+            "sum by region x income_band",
+            4
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "donor": "D00000",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 6,
+          "recovered_set_size": 6,
+          "true_total": 156.84,
+          "recovered_total": 156.84,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00001",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 6,
+          "recovered_set_size": 6,
+          "true_total": 66.83,
+          "recovered_total": 66.83,
+          "abs_error": 0.0,
+          "sessions": 4,
+          "asked": 19,
+          "queries": 16,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00002",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 7,
+          "recovered_set_size": 7,
+          "true_total": 198.55,
+          "recovered_total": 198.55,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00003",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band",
+            "device_os"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 7.99,
+          "recovered_total": 7.99,
+          "abs_error": 0.0,
+          "sessions": 7,
+          "asked": 38,
+          "queries": 32,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00004",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 3.97,
+          "recovered_total": 3.97,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0
+        }
+      ]
+    },
+    "23": {
+      "attack_per_session": {
+        "targets_with_declared_values": 800,
+        "unique_or_small_on_some_dims": 800,
+        "never_below_threshold": 0,
+        "exact_total_recovered": 800,
+        "of_which_one_person": 281,
+        "of_which_small_group": 519,
+        "small_group_sizes": {
+          "8": 111,
+          "3": 8,
+          "5": 52,
+          "7": 96,
+          "9": 144,
+          "6": 76,
+          "4": 30,
+          "2": 2
+        },
+        "blocked_by_an_unreleasable_query": 0,
+        "dims_needed": {
+          "2": 64,
+          "3": 376,
+          "4": 292,
+          "5": 68
+        },
+        "queries_per_recovery_median": 8.0,
+        "sessions_per_recovery": {
+          "2": 513,
+          "4": 46,
+          "3": 173,
+          "6": 19,
+          "7": 11,
+          "5": 25,
+          "8": 6,
+          "10": 4,
+          "9": 2,
+          "11": 1
+        },
+        "sessions_per_recovery_max": 11,
+        "max_abs_error": 0.0
+      },
+      "attack_seconds": 305.3,
+      "shared_ledger": {
+        "targets": 40,
+        "queries": 560,
+        "statuses": {
+          "released": 55,
+          "denied": 505
+        },
+        "targets_with_every_query_released": 0,
+        "seconds": 63.3
+      },
+      "ordinary_under_shared_ledger": {
+        "tables": 75,
+        "alone_statuses": {
+          "released": 3,
+          "redacted": 67,
+          "denied": 5
+        },
+        "shared_ledger_orders": 10,
+        "shared_ledger_refused_min": 8,
+        "shared_ledger_refused_median": 9.0,
+        "shared_ledger_refused_max": 11,
+        "most_often_refused": [
+          [
+            "sum by sex x region x income_band",
+            8
+          ],
+          [
+            "sum by age_band x sex x region",
+            7
+          ],
+          [
+            "sum by region x device_os",
+            7
+          ],
+          [
+            "sum by sex x income_band x device_os",
+            6
+          ],
+          [
+            "sum by age_band x income_band x device_os",
+            6
+          ],
+          [
+            "sum by age_band x income_band",
+            6
+          ],
+          [
+            "sum by age_band x sex x income_band",
+            5
+          ],
+          [
+            "sum by sex x region x device_os",
+            4
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "donor": "D00000",
+          "dims": [
+            "region",
+            "income_band"
+          ],
+          "size": 8,
+          "recovered_set_size": 8,
+          "true_total": 332.68,
+          "recovered_total": 332.68,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 5,
+          "queries": 4,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00001",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 15.97,
+          "recovered_total": 15.97,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00002",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 8,
+          "recovered_set_size": 8,
+          "true_total": 297.5,
+          "recovered_total": 297.5,
+          "abs_error": 0.0,
+          "sessions": 4,
+          "asked": 19,
+          "queries": 16,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00003",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 3,
+          "recovered_set_size": 3,
+          "true_total": 105.86,
+          "recovered_total": 105.86,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0
+        },
+        {
+          "donor": "D00004",
+          "dims": [
+            "age_band",
+            "sex"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 0.79,
+          "recovered_total": 0.79,
+          "abs_error": 0.0,
+          "sessions": 2,
+          "asked": 5,
+          "queries": 4,
+          "unreleasable": 0
+        }
+      ]
+    }
+  }
+}

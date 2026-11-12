@@ -1,0 +1,310 @@
+{
+  "seed": 7,
+  "donors": 800,
+  "rows": [
+    {
+      "history_releases": 0,
+      "cells": 0,
+      "own_history": {
+        "mean_donor_spend": {
+          "first_s": 0.123,
+          "later_median_s": 0.015,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 0.029,
+          "later_median_s": 0.025,
+          "outcomes": {
+            "redacted:dominance,small_cell,undeclared_cell_key": 4
+          }
+        },
+        "count_spend": {
+          "first_s": 0.02,
+          "later_median_s": 0.014,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      },
+      "cross_person_ledger": {
+        "mean_donor_spend": {
+          "first_s": 0.123,
+          "later_median_s": 0.016,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 0.04,
+          "later_median_s": 0.026,
+          "outcomes": {
+            "redacted:dominance,small_cell,undeclared_cell_key": 4
+          }
+        },
+        "count_spend": {
+          "first_s": 0.02,
+          "later_median_s": 0.015,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      }
+    },
+    {
+      "history_releases": 100,
+      "cells": 508,
+      "own_history": {
+        "mean_donor_spend": {
+          "first_s": 0.451,
+          "later_median_s": 0.016,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 0.141,
+          "later_median_s": 0.159,
+          "outcomes": {
+            "denied:dominance,linear_isolation,small_cell,undeclared_cell_key": 4
+          }
+        },
+        "count_spend": {
+          "first_s": 0.038,
+          "later_median_s": 0.021,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      },
+      "cross_person_ledger": {
+        "mean_donor_spend": {
+          "first_s": 0.46,
+          "later_median_s": 0.016,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 0.149,
+          "later_median_s": 0.039,
+          "outcomes": {
+            "redacted:cross_person,dominance,small_cell,undeclared_cell_key": 1,
+            "redacted:dominance,small_cell,undeclared_cell_key": 3
+          }
+        },
+        "count_spend": {
+          "first_s": 0.02,
+          "later_median_s": 0.014,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      }
+    },
+    {
+      "history_releases": 250,
+      "cells": 1213,
+      "own_history": {
+        "mean_donor_spend": {
+          "first_s": 0.97,
+          "later_median_s": 0.017,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 0.37,
+          "later_median_s": 0.371,
+          "outcomes": {
+            "denied:dominance,linear_isolation,small_cell,undeclared_cell_key": 4
+          }
+        },
+        "count_spend": {
+          "first_s": 0.034,
+          "later_median_s": 0.016,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      },
+      "cross_person_ledger": {
+        "mean_donor_spend": {
+          "first_s": 0.96,
+          "later_median_s": 0.016,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 0.376,
+          "later_median_s": 0.039,
+          "outcomes": {
+            "redacted:cross_person,dominance,small_cell,undeclared_cell_key": 1,
+            "redacted:dominance,small_cell,undeclared_cell_key": 3
+          }
+        },
+        "count_spend": {
+          "first_s": 0.021,
+          "later_median_s": 0.014,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      }
+    },
+    {
+      "history_releases": 500,
+      "cells": 2407,
+      "own_history": {
+        "mean_donor_spend": {
+          "first_s": 1.774,
+          "later_median_s": 0.018,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 0.019,
+          "later_median_s": 0.02,
+          "outcomes": {
+            "redacted:dominance,small_cell,undeclared_cell_key": 4
+          }
+        },
+        "count_spend": {
+          "first_s": 0.021,
+          "later_median_s": 0.015,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      },
+      "cross_person_ledger": {
+        "mean_donor_spend": {
+          "first_s": 1.766,
+          "later_median_s": 0.018,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 0.029,
+          "later_median_s": 0.029,
+          "outcomes": {
+            "redacted:dominance,small_cell,undeclared_cell_key": 4
+          }
+        },
+        "count_spend": {
+          "first_s": 0.02,
+          "later_median_s": 0.014,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      }
+    },
+    {
+      "history_releases": 1000,
+      "cells": 4902,
+      "own_history": {
+        "mean_donor_spend": {
+          "first_s": 3.512,
+          "later_median_s": 0.022,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 1.854,
+          "later_median_s": 1.832,
+          "outcomes": {
+            "denied:dominance,linear_isolation,small_cell,undeclared_cell_key": 4
+          }
+        },
+        "count_spend": {
+          "first_s": 0.039,
+          "later_median_s": 0.022,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      },
+      "cross_person_ledger": {
+        "mean_donor_spend": {
+          "first_s": 3.447,
+          "later_median_s": 0.02,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 1.822,
+          "later_median_s": 0.034,
+          "outcomes": {
+            "redacted:cross_person,dominance,small_cell,undeclared_cell_key": 1,
+            "redacted:dominance,small_cell,undeclared_cell_key": 3
+          }
+        },
+        "count_spend": {
+          "first_s": 0.021,
+          "later_median_s": 0.015,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      }
+    },
+    {
+      "history_releases": 2000,
+      "cells": 9831,
+      "own_history": {
+        "mean_donor_spend": {
+          "first_s": 6.977,
+          "later_median_s": 0.03,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 3.612,
+          "later_median_s": 3.66,
+          "outcomes": {
+            "denied:audit_failed,dominance,small_cell,undeclared_cell_key": 4
+          }
+        },
+        "count_spend": {
+          "first_s": 0.028,
+          "later_median_s": 0.019,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      },
+      "cross_person_ledger": {
+        "mean_donor_spend": {
+          "first_s": 6.943,
+          "later_median_s": 0.026,
+          "outcomes": {
+            "released:": 4
+          }
+        },
+        "sum_donor_spend": {
+          "first_s": 3.554,
+          "later_median_s": 0.041,
+          "outcomes": {
+            "redacted:cross_person,dominance,small_cell,undeclared_cell_key": 1,
+            "redacted:dominance,small_cell,undeclared_cell_key": 3
+          }
+        },
+        "count_spend": {
+          "first_s": 0.022,
+          "later_median_s": 0.015,
+          "outcomes": {
+            "released:": 4
+          }
+        }
+      }
+    }
+  ]
+}

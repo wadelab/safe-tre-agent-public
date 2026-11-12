@@ -1,0 +1,4575 @@
+{
+  "budgets": [
+    75,
+    50,
+    100,
+    150
+  ],
+  "limits": [
+    3,
+    5,
+    8,
+    10,
+    12,
+    15,
+    20
+  ],
+  "workloads": {
+    "tables": {
+      "orders": [
+        {
+          "requests": 75,
+          "probes": 10,
+          "distinct_probes": 10,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 3,
+                "paused_days": 3,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15.0
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 22
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 37.5
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 2,
+                "paused_days": 3,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15.0
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 2,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 22
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              }
+            },
+            "100": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 3,
+                "paused_days": 3,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15.0
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 22
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 37.5
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              }
+            },
+            "150": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 3,
+                "paused_days": 3,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15.0
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 22
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 37.5
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 0.0
+          }
+        },
+        {
+          "requests": 75,
+          "probes": 8,
+          "distinct_probes": 8,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 37.5
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 9.5
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 2,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 13
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 37.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 37.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 37.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 37.5
+              }
+            },
+            "100": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              }
+            },
+            "150": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 0.0
+          }
+        },
+        {
+          "requests": 75,
+          "probes": 9,
+          "distinct_probes": 9,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 3,
+                "paused_days": 3,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 21.0
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 2,
+                "paused_days": 3,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 21.0
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              }
+            },
+            "100": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 3,
+                "paused_days": 3,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 21.0
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              }
+            },
+            "150": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 3,
+                "paused_days": 3,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 21.0
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 0.0
+          }
+        },
+        {
+          "requests": 75,
+          "probes": 8,
+          "distinct_probes": 8,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 22
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 2,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 22
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              }
+            },
+            "100": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 22
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              }
+            },
+            "150": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 22
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 75
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 0.0
+          }
+        },
+        {
+          "requests": 75,
+          "probes": 9,
+          "distinct_probes": 9,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 3,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 11
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 37.5
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 2,
+                "paused_days": 3,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 10.0
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 17
+              },
+              "8": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 24
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 37.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 37.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 37.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 37.5
+              }
+            },
+            "100": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 3,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 11
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              }
+            },
+            "150": {
+              "none": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 2,
+                "paused_days": 3,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 11
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 37.5
+              },
+              "10": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 1,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 75
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 0.0
+          }
+        }
+      ],
+      "bits_bound_per_day": {
+        "75": {
+          "3": 16.1,
+          "5": 24.1,
+          "8": 34.2,
+          "10": 39.8,
+          "12": 44.9,
+          "15": 51.4,
+          "20": 60.1
+        },
+        "50": {
+          "3": 14.3,
+          "5": 21.2,
+          "8": 29.3,
+          "10": 33.6,
+          "12": 37.3,
+          "15": 41.8,
+          "20": 46.7
+        },
+        "100": {
+          "3": 17.3,
+          "5": 26.2,
+          "8": 37.6,
+          "10": 44.1,
+          "12": 50.1,
+          "15": 58.1,
+          "20": 69.3
+        },
+        "150": {
+          "3": 19.1,
+          "5": 29.2,
+          "8": 42.3,
+          "10": 50.2,
+          "12": 57.4,
+          "15": 67.3,
+          "20": 81.8
+        }
+      },
+      "seconds": 61.4
+    },
+    "strata": {
+      "orders": [
+        {
+          "requests": 267,
+          "probes": 7,
+          "distinct_probes": 7,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "3": {
+                "days": 5,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75
+              },
+              "5": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "8": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              }
+            },
+            "50": {
+              "none": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 50.0
+              },
+              "3": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "5": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 50.0
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 50.0
+              },
+              "10": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 50.0
+              },
+              "12": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 50.0
+              },
+              "15": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 50.0
+              },
+              "20": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 50.0
+              }
+            },
+            "100": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 100
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 69.5
+              },
+              "5": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 78.0
+              },
+              "8": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 100
+              },
+              "10": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 100
+              },
+              "12": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 100
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 100
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 100
+              }
+            },
+            "150": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 133.5
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 2,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 89
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 2,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 106
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 133.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 133.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 133.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 133.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 133.5
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 3.0
+          }
+        },
+        {
+          "requests": 267,
+          "probes": 5,
+          "distinct_probes": 5,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "5": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "8": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              }
+            },
+            "50": {
+              "none": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "3": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "5": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "10": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "12": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "15": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "20": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              }
+            },
+            "100": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 74.5
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "8": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "10": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "12": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              }
+            },
+            "150": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 133.5
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 77
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 133.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 133.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 133.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 133.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 133.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 133.5
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 3.0
+          }
+        },
+        {
+          "requests": 267,
+          "probes": 4,
+          "distinct_probes": 4,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "5": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "8": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 75.0
+              }
+            },
+            "50": {
+              "none": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "3": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "5": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "10": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "12": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "15": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "20": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              }
+            },
+            "100": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.5
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "8": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "10": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "12": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              }
+            },
+            "150": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "3": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 101
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 3.0
+          }
+        },
+        {
+          "requests": 267,
+          "probes": 5,
+          "distinct_probes": 5,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 74.0
+              },
+              "5": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "8": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              }
+            },
+            "50": {
+              "none": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "3": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "5": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "10": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "12": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "15": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              },
+              "20": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 2,
+                "requests_per_day_median": 50.0
+              }
+            },
+            "100": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 77.0
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "8": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "10": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "12": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              }
+            },
+            "150": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "3": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "5": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 133.5
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 3.0
+          }
+        },
+        {
+          "requests": 267,
+          "probes": 6,
+          "distinct_probes": 6,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 75.0
+              },
+              "3": {
+                "days": 5,
+                "extra_days": 1,
+                "paused_days": 2,
+                "probes_per_day_median": 0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 64
+              },
+              "5": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 75.0
+              },
+              "8": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 75.0
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 75.0
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 75.0
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 75.0
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 4,
+                "requests_per_day_median": 75.0
+              }
+            },
+            "50": {
+              "none": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "3": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "5": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "10": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "12": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "15": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "20": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              }
+            },
+            "100": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 2,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 71.0
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "8": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "10": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "12": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              }
+            },
+            "150": {
+              "none": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 133.5
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 2,
+                "paused_days": 2,
+                "probes_per_day_median": 1.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 46.0
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 91
+              },
+              "8": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 133.5
+              },
+              "10": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 133.5
+              },
+              "12": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 133.5
+              },
+              "15": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 133.5
+              },
+              "20": {
+                "days": 2,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 6,
+                "requests_per_day_median": 133.5
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 3.0
+          }
+        }
+      ],
+      "bits_bound_per_day": {
+        "75": {
+          "3": 16.1,
+          "5": 24.1,
+          "8": 34.2,
+          "10": 39.8,
+          "12": 44.9,
+          "15": 51.4,
+          "20": 60.1
+        },
+        "50": {
+          "3": 14.3,
+          "5": 21.2,
+          "8": 29.3,
+          "10": 33.6,
+          "12": 37.3,
+          "15": 41.8,
+          "20": 46.7
+        },
+        "100": {
+          "3": 17.3,
+          "5": 26.2,
+          "8": 37.6,
+          "10": 44.1,
+          "12": 50.1,
+          "15": 58.1,
+          "20": 69.3
+        },
+        "150": {
+          "3": 19.1,
+          "5": 29.2,
+          "8": 42.3,
+          "10": 50.2,
+          "12": 57.4,
+          "15": 67.3,
+          "20": 81.8
+        }
+      },
+      "seconds": 231.1
+    },
+    "trackers": {
+      "orders": [
+        {
+          "requests": 400,
+          "probes": 8,
+          "distinct_probes": 8,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "3": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "5": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "10": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "12": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "15": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              },
+              "20": {
+                "days": 6,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 1.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 75.0
+              }
+            },
+            "50": {
+              "none": {
+                "days": 8,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "3": {
+                "days": 9,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 1,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50
+              },
+              "5": {
+                "days": 8,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "8": {
+                "days": 8,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "10": {
+                "days": 8,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "12": {
+                "days": 8,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "15": {
+                "days": 8,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              },
+              "20": {
+                "days": 8,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 0.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 50.0
+              }
+            },
+            "100": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100.0
+              },
+              "3": {
+                "days": 5,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 2,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100
+              },
+              "5": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100.0
+              },
+              "8": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100.0
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100.0
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100.0
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100.0
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 2.5,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 100.0
+              }
+            },
+            "150": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 150
+              },
+              "3": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 1,
+                "probes_per_day_median": 2.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 106.5
+              },
+              "5": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 150
+              },
+              "8": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 150
+              },
+              "10": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 150
+              },
+              "12": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 150
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 150
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 150
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 5.0
+          }
+        }
+      ],
+      "bits_bound_per_day": {
+        "75": {
+          "3": 16.1,
+          "5": 24.1,
+          "8": 34.2,
+          "10": 39.8,
+          "12": 44.9,
+          "15": 51.4,
+          "20": 60.1
+        },
+        "50": {
+          "3": 14.3,
+          "5": 21.2,
+          "8": 29.3,
+          "10": 33.6,
+          "12": 37.3,
+          "15": 41.8,
+          "20": 46.7
+        },
+        "100": {
+          "3": 17.3,
+          "5": 26.2,
+          "8": 37.6,
+          "10": 44.1,
+          "12": 50.1,
+          "15": 58.1,
+          "20": 69.3
+        },
+        "150": {
+          "3": 19.1,
+          "5": 29.2,
+          "8": 42.3,
+          "10": 50.2,
+          "12": 57.4,
+          "15": 67.3,
+          "20": 81.8
+        }
+      },
+      "seconds": 65.1
+    },
+    "exclusions": {
+      "orders": [
+        {
+          "requests": 301,
+          "probes": 33,
+          "distinct_probes": 33,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 11,
+                "extra_days": 6,
+                "paused_days": 11,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 26
+              },
+              "5": {
+                "days": 7,
+                "extra_days": 2,
+                "paused_days": 5,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 42
+              },
+              "8": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 73
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "12": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 50
+              },
+              "3": {
+                "days": 11,
+                "extra_days": 4,
+                "paused_days": 11,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 26
+              },
+              "5": {
+                "days": 8,
+                "extra_days": 1,
+                "paused_days": 4,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 44.0
+              },
+              "8": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 50
+              },
+              "10": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 50
+              },
+              "12": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 50
+              },
+              "15": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 50
+              },
+              "20": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 50
+              }
+            },
+            "100": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9.0,
+                "probes_per_day_max": 14,
+                "requests_per_day_median": 100.0
+              },
+              "3": {
+                "days": 11,
+                "extra_days": 7,
+                "paused_days": 11,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 26
+              },
+              "5": {
+                "days": 7,
+                "extra_days": 3,
+                "paused_days": 6,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37
+              },
+              "8": {
+                "days": 5,
+                "extra_days": 1,
+                "paused_days": 3,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 66
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 8.5,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 88.0
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 9.0,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 93.5
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9.0,
+                "probes_per_day_max": 14,
+                "requests_per_day_median": 100.0
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9.0,
+                "probes_per_day_max": 14,
+                "requests_per_day_median": 100.0
+              }
+            },
+            "150": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 13,
+                "probes_per_day_max": 19,
+                "requests_per_day_median": 150
+              },
+              "3": {
+                "days": 11,
+                "extra_days": 8,
+                "paused_days": 11,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 26
+              },
+              "5": {
+                "days": 7,
+                "extra_days": 4,
+                "paused_days": 6,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 37
+              },
+              "8": {
+                "days": 5,
+                "extra_days": 2,
+                "paused_days": 4,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 65
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 3,
+                "probes_per_day_median": 10.0,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 79.0
+              },
+              "12": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 12,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 100
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 13,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 129
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 13,
+                "probes_per_day_max": 19,
+                "requests_per_day_median": 150
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 4.0
+          }
+        },
+        {
+          "requests": 301,
+          "probes": 34,
+          "distinct_probes": 34,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 12,
+                "extra_days": 7,
+                "paused_days": 11,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 21.0
+              },
+              "5": {
+                "days": 8,
+                "extra_days": 3,
+                "paused_days": 6,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 30.0
+              },
+              "8": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 3,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 56
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 64
+              },
+              "12": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 50
+              },
+              "3": {
+                "days": 12,
+                "extra_days": 5,
+                "paused_days": 11,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 21.0
+              },
+              "5": {
+                "days": 8,
+                "extra_days": 1,
+                "paused_days": 4,
+                "probes_per_day_median": 4.5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 39.5
+              },
+              "8": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 4,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 50
+              },
+              "10": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 50
+              },
+              "12": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 50
+              },
+              "15": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 50
+              },
+              "20": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 4,
+                "probes_per_day_max": 9,
+                "requests_per_day_median": 50
+              }
+            },
+            "100": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10.0,
+                "probes_per_day_max": 14,
+                "requests_per_day_median": 100.0
+              },
+              "3": {
+                "days": 12,
+                "extra_days": 8,
+                "paused_days": 11,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 21.0
+              },
+              "5": {
+                "days": 7,
+                "extra_days": 3,
+                "paused_days": 6,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 38
+              },
+              "8": {
+                "days": 5,
+                "extra_days": 1,
+                "paused_days": 3,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 50
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 8.5,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 72.5
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 9.5,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 83.0
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10.0,
+                "probes_per_day_max": 14,
+                "requests_per_day_median": 100.0
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 10.0,
+                "probes_per_day_max": 14,
+                "requests_per_day_median": 100.0
+              }
+            },
+            "150": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 11,
+                "probes_per_day_max": 23,
+                "requests_per_day_median": 150
+              },
+              "3": {
+                "days": 12,
+                "extra_days": 9,
+                "paused_days": 11,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 21.0
+              },
+              "5": {
+                "days": 7,
+                "extra_days": 4,
+                "paused_days": 6,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 38
+              },
+              "8": {
+                "days": 5,
+                "extra_days": 2,
+                "paused_days": 4,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 69
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 3,
+                "probes_per_day_median": 10.0,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 60.0
+              },
+              "12": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 11,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 85
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 11,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 79
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 11,
+                "probes_per_day_max": 20,
+                "requests_per_day_median": 116
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 4.0
+          }
+        },
+        {
+          "requests": 301,
+          "probes": 39,
+          "distinct_probes": 39,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 16,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 14,
+                "extra_days": 9,
+                "paused_days": 13,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 16.0
+              },
+              "5": {
+                "days": 9,
+                "extra_days": 4,
+                "paused_days": 7,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 30
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 1,
+                "paused_days": 4,
+                "probes_per_day_median": 8.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 55.5
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 73
+              },
+              "12": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 16,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 11,
+                "requests_per_day_median": 50
+              },
+              "3": {
+                "days": 14,
+                "extra_days": 7,
+                "paused_days": 12,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 17.5
+              },
+              "5": {
+                "days": 9,
+                "extra_days": 2,
+                "paused_days": 7,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 34
+              },
+              "8": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 3,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 49
+              },
+              "10": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 50
+              },
+              "12": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 11,
+                "requests_per_day_median": 50
+              },
+              "15": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 11,
+                "requests_per_day_median": 50
+              },
+              "20": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 11,
+                "requests_per_day_median": 50
+              }
+            },
+            "100": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9.0,
+                "probes_per_day_max": 21,
+                "requests_per_day_median": 100.0
+              },
+              "3": {
+                "days": 14,
+                "extra_days": 10,
+                "paused_days": 13,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 16.0
+              },
+              "5": {
+                "days": 8,
+                "extra_days": 4,
+                "paused_days": 7,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 28.5
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 2,
+                "paused_days": 4,
+                "probes_per_day_median": 8.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 43.0
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 1,
+                "paused_days": 3,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 67
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 10.0,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 78.5
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 9.0,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 92.5
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 9.0,
+                "probes_per_day_max": 20,
+                "requests_per_day_median": 98.0
+              }
+            },
+            "150": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 15,
+                "probes_per_day_max": 24,
+                "requests_per_day_median": 150
+              },
+              "3": {
+                "days": 14,
+                "extra_days": 11,
+                "paused_days": 13,
+                "probes_per_day_median": 3.0,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 16.0
+              },
+              "5": {
+                "days": 8,
+                "extra_days": 5,
+                "paused_days": 7,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 28.5
+              },
+              "8": {
+                "days": 5,
+                "extra_days": 2,
+                "paused_days": 4,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 41
+              },
+              "10": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 3,
+                "probes_per_day_median": 10.0,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 64.0
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 3,
+                "probes_per_day_median": 12.0,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 74.5
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 15,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 108
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 15,
+                "probes_per_day_max": 20,
+                "requests_per_day_median": 138
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 4.0
+          }
+        },
+        {
+          "requests": 301,
+          "probes": 44,
+          "distinct_probes": 44,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 15,
+                "extra_days": 10,
+                "paused_days": 14,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 16
+              },
+              "5": {
+                "days": 9,
+                "extra_days": 4,
+                "paused_days": 8,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 28
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 1,
+                "paused_days": 4,
+                "probes_per_day_median": 8.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 51.0
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 3,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 57
+              },
+              "12": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 3,
+                "probes_per_day_median": 12,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 60
+              },
+              "15": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 9,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 6,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 50
+              },
+              "3": {
+                "days": 15,
+                "extra_days": 8,
+                "paused_days": 14,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 16
+              },
+              "5": {
+                "days": 10,
+                "extra_days": 3,
+                "paused_days": 8,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 28.0
+              },
+              "8": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 3,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 46
+              },
+              "10": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 6,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 50
+              },
+              "12": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 6,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 50
+              },
+              "15": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 6,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 50
+              },
+              "20": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 6,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 50
+              }
+            },
+            "100": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 14.5,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 100.0
+              },
+              "3": {
+                "days": 15,
+                "extra_days": 11,
+                "paused_days": 14,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 16
+              },
+              "5": {
+                "days": 9,
+                "extra_days": 5,
+                "paused_days": 8,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 28
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 2,
+                "paused_days": 5,
+                "probes_per_day_median": 8.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 46.0
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 1,
+                "paused_days": 4,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 57
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 3,
+                "probes_per_day_median": 12.0,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 78.0
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 14.5,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 92.5
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 14.5,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 100.0
+              }
+            },
+            "150": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 20,
+                "probes_per_day_max": 24,
+                "requests_per_day_median": 150
+              },
+              "3": {
+                "days": 15,
+                "extra_days": 12,
+                "paused_days": 14,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 16
+              },
+              "5": {
+                "days": 9,
+                "extra_days": 6,
+                "paused_days": 8,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 28
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 3,
+                "paused_days": 5,
+                "probes_per_day_median": 8.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 46.0
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 2,
+                "paused_days": 4,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 57
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 3,
+                "probes_per_day_median": 12.0,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 78.0
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 15,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 99
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 20,
+                "probes_per_day_max": 20,
+                "requests_per_day_median": 94
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 4.0
+          }
+        },
+        {
+          "requests": 301,
+          "probes": 43,
+          "distinct_probes": 43,
+          "by_budget": {
+            "75": {
+              "none": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              },
+              "3": {
+                "days": 15,
+                "extra_days": 10,
+                "paused_days": 14,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15
+              },
+              "5": {
+                "days": 9,
+                "extra_days": 4,
+                "paused_days": 8,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 31
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 1,
+                "paused_days": 5,
+                "probes_per_day_median": 8.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 51.5
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 61
+              },
+              "12": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 75
+              },
+              "15": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              },
+              "20": {
+                "days": 5,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 8,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 75
+              }
+            },
+            "50": {
+              "none": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 11,
+                "requests_per_day_median": 50
+              },
+              "3": {
+                "days": 15,
+                "extra_days": 8,
+                "paused_days": 14,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15
+              },
+              "5": {
+                "days": 10,
+                "extra_days": 3,
+                "paused_days": 7,
+                "probes_per_day_median": 5.0,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 31.5
+              },
+              "8": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 50
+              },
+              "10": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 50
+              },
+              "12": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 11,
+                "requests_per_day_median": 50
+              },
+              "15": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 11,
+                "requests_per_day_median": 50
+              },
+              "20": {
+                "days": 7,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 7,
+                "probes_per_day_max": 11,
+                "requests_per_day_median": 50
+              }
+            },
+            "100": {
+              "none": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 13.0,
+                "probes_per_day_max": 17,
+                "requests_per_day_median": 100.0
+              },
+              "3": {
+                "days": 15,
+                "extra_days": 11,
+                "paused_days": 14,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15
+              },
+              "5": {
+                "days": 9,
+                "extra_days": 5,
+                "paused_days": 8,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 31
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 2,
+                "paused_days": 5,
+                "probes_per_day_median": 8.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 51.5
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 1,
+                "paused_days": 4,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 67
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 11.0,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 71.0
+              },
+              "15": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 12.5,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 94.0
+              },
+              "20": {
+                "days": 4,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 13.0,
+                "probes_per_day_max": 17,
+                "requests_per_day_median": 100.0
+              }
+            },
+            "150": {
+              "none": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 0,
+                "probes_per_day_median": 16,
+                "probes_per_day_max": 27,
+                "requests_per_day_median": 150
+              },
+              "3": {
+                "days": 15,
+                "extra_days": 12,
+                "paused_days": 14,
+                "probes_per_day_median": 3,
+                "probes_per_day_max": 3,
+                "requests_per_day_median": 15
+              },
+              "5": {
+                "days": 9,
+                "extra_days": 6,
+                "paused_days": 8,
+                "probes_per_day_median": 5,
+                "probes_per_day_max": 5,
+                "requests_per_day_median": 31
+              },
+              "8": {
+                "days": 6,
+                "extra_days": 3,
+                "paused_days": 5,
+                "probes_per_day_median": 8.0,
+                "probes_per_day_max": 8,
+                "requests_per_day_median": 51.5
+              },
+              "10": {
+                "days": 5,
+                "extra_days": 2,
+                "paused_days": 4,
+                "probes_per_day_median": 10,
+                "probes_per_day_max": 10,
+                "requests_per_day_median": 67
+              },
+              "12": {
+                "days": 4,
+                "extra_days": 1,
+                "paused_days": 3,
+                "probes_per_day_median": 12.0,
+                "probes_per_day_max": 12,
+                "requests_per_day_median": 66.5
+              },
+              "15": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 2,
+                "probes_per_day_median": 15,
+                "probes_per_day_max": 15,
+                "requests_per_day_median": 80
+              },
+              "20": {
+                "days": 3,
+                "extra_days": 0,
+                "paused_days": 1,
+                "probes_per_day_median": 16,
+                "probes_per_day_max": 20,
+                "requests_per_day_median": 105
+              }
+            }
+          },
+          "actual_at_check_limit": {
+            "days": 4.0
+          }
+        }
+      ],
+      "bits_bound_per_day": {
+        "75": {
+          "3": 16.1,
+          "5": 24.1,
+          "8": 34.2,
+          "10": 39.8,
+          "12": 44.9,
+          "15": 51.4,
+          "20": 60.1
+        },
+        "50": {
+          "3": 14.3,
+          "5": 21.2,
+          "8": 29.3,
+          "10": 33.6,
+          "12": 37.3,
+          "15": 41.8,
+          "20": 46.7
+        },
+        "100": {
+          "3": 17.3,
+          "5": 26.2,
+          "8": 37.6,
+          "10": 44.1,
+          "12": 50.1,
+          "15": 58.1,
+          "20": 69.3
+        },
+        "150": {
+          "3": 19.1,
+          "5": 29.2,
+          "8": 42.3,
+          "10": 50.2,
+          "12": 57.4,
+          "15": 67.3,
+          "20": 81.8
+        }
+      },
+      "seconds": 291.5
+    }
+  }
+}

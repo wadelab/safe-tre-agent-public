@@ -1,0 +1,56 @@
+{
+  "threshold": 10,
+  "budget": 20,
+  "quasi_identifiers": [
+    "age_band",
+    "sex",
+    "region",
+    "income_band",
+    "device_os"
+  ],
+  "one_person": true,
+  "population": null,
+  "measure": "donor_spend.total_spend_gbp, sum",
+  "donors": 800,
+  "seeds": {
+    "7": {
+      "attack_per_session": {
+        "targets_with_declared_values": 800,
+        "unique_or_small_on_some_dims": 800,
+        "never_below_threshold": 0,
+        "exact_total_recovered": 0,
+        "of_which_one_person": 0,
+        "of_which_small_group": 0,
+        "small_group_sizes": {},
+        "blocked_by_an_unreleasable_query": 800,
+        "flagged_in_the_audit_log": 0,
+        "held_for_review": 0,
+        "dims_needed": {},
+        "queries_per_recovery_median": null,
+        "sessions_per_recovery": {},
+        "sessions_per_recovery_max": null,
+        "max_abs_error": null,
+        "one_person_true_total_median": null,
+        "if_sums_rounded": {
+          "1": {
+            "one_person_abs_error_median": null,
+            "one_person_within_1_pound": 0,
+            "one_person_within_10_percent": 0
+          },
+          "10": {
+            "one_person_abs_error_median": null,
+            "one_person_within_1_pound": 0,
+            "one_person_within_10_percent": 0
+          },
+          "100": {
+            "one_person_abs_error_median": null,
+            "one_person_within_1_pound": 0,
+            "one_person_within_10_percent": 0
+          }
+        }
+      },
+      "attack_seconds": 370.5,
+      "examples": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "seed": 7,
+  "donors": 500,
+  "dom_threshold": 0.5,
+  "threshold": 10,
+  "cells": {
+    "cells_at_or_above_threshold": 5200,
+    "pass_linear_bound": 5070,
+    "pass_linear_fail_squared": 360,
+    "pass_squared_fail_linear": 0,
+    "pass_both": 4710,
+    "median_linear_share": 0.0779917208111166,
+    "median_squared_share": 0.11771215748149996
+  },
+  "models": {
+    "gaussian_points": 539,
+    "released": 47,
+    "denied": 492,
+    "lost_dispersion_only": 36,
+    "denied_by_mean_cell": 456,
+    "releasable_but_for_the_dispersion_cell": 83,
+    "availability_cost": 0.43373493975903615
+  },
+  "equal_rest_crossover": {
+    "10": 0.25,
+    "20": 0.1866,
+    "50": 0.125,
+    "100": 0.0913
+  }
+}

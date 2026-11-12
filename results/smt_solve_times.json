@@ -1,0 +1,795 @@
+{
+ "budget_s": 30.0,
+ "sessions": [
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::grouping_unsupported_breakdown"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::grouping_swapped_dimension"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::grouping_dropped_dimension"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0328,
+     "question": "build",
+     "seconds": 0.033,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 31,
+     "encoder": "linear",
+     "max_seconds": 0.0028,
+     "question": "determined_person",
+     "seconds": 0.006,
+     "status": {
+      "open": 31
+     }
+    }
+   ],
+   "seconds": 0.086,
+   "session": "attacks.yaml::grouping_faithful_baseline"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0015,
+     "question": "build",
+     "seconds": 0.002,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.029,
+   "session": "attacks.yaml::glm_benign_baseline"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::glm_small_cell_design"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0456,
+     "question": "build",
+     "seconds": 0.046,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 225,
+     "encoder": "linear",
+     "max_seconds": 0.0112,
+     "question": "determined_person",
+     "seconds": 0.103,
+     "status": {
+      "open": 225
+     }
+    }
+   ],
+   "seconds": 0.316,
+   "session": "attacks.yaml::glm_saturated_recovery_of_suppressed_cell"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::glm_internal_var_predictor"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::glm_response_swap"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::glm_dropped_term"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::glm_residuals_request"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0022,
+     "question": "build",
+     "seconds": 0.002,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0003,
+     "question": "determined_size",
+     "seconds": 0.0,
+     "status": {
+      "open": 1
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0012,
+     "question": "size_range",
+     "seconds": 0.001,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.124,
+   "session": "attacks.yaml::glm_differencing_pair"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::glm_separated_level"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0011,
+     "question": "build",
+     "seconds": 0.001,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.042,
+   "session": "attacks.yaml::literal_spec_benign_baseline"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::literal_spec_small_cell_design"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::age_range_sweep_step"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::exact_age_probe"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "attacks.yaml::double_differencing_two_common_dims"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0016,
+     "question": "build",
+     "seconds": 0.002,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.141,
+   "session": "attacks.yaml::donor_delta_differencing"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0089,
+     "question": "build",
+     "seconds": 0.009,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 99,
+     "encoder": "linear",
+     "max_seconds": 0.0012,
+     "question": "determined_person",
+     "seconds": 0.021,
+     "status": {
+      "open": 99
+     }
+    },
+    {
+     "asked": 99,
+     "encoder": "linear",
+     "max_seconds": 0.011,
+     "question": "person_range",
+     "seconds": 1.053,
+     "status": {
+      "answered": 99
+     }
+    }
+   ],
+   "seconds": 1.154,
+   "session": "attacks.yaml::adversarial_negative_dominance"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0017,
+     "question": "build",
+     "seconds": 0.002,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.052,
+   "session": "attacks.yaml::adversarial_nonfinite_payload"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0049,
+     "question": "build",
+     "seconds": 0.005,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 3,
+     "encoder": "linear",
+     "max_seconds": 0.0009,
+     "question": "determined_size",
+     "seconds": 0.001,
+     "status": {
+      "open": 3
+     }
+    },
+    {
+     "asked": 3,
+     "encoder": "linear",
+     "max_seconds": 0.0055,
+     "question": "size_range",
+     "seconds": 0.016,
+     "status": {
+      "answered": 3
+     }
+    }
+   ],
+   "seconds": 0.053,
+   "session": "attacks.yaml::adversarial_undeclared_category"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0045,
+     "question": "build",
+     "seconds": 0.004,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.08,
+   "session": "attacks.yaml::adversarial_hyperactive_donor"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.003,
+     "question": "build",
+     "seconds": 0.003,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.032,
+   "session": "attacks.yaml::corr_internal_age_measure"
+  },
+  {
+   "polynomial": [
+    {
+     "encoder": "polynomial",
+     "question": "build",
+     "seconds": 0.643,
+     "status": "answered",
+     "view": "donor_spend"
+    },
+    {
+     "encoder": "polynomial",
+     "question": "all_open",
+     "seconds": 0.1651,
+     "status": "open",
+     "view": "donor_spend"
+    }
+   ],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0079,
+     "question": "build",
+     "seconds": 0.008,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 80,
+     "encoder": "linear",
+     "max_seconds": 0.0013,
+     "question": "determined_size",
+     "seconds": 0.018,
+     "status": {
+      "open": 80
+     }
+    },
+    {
+     "asked": 80,
+     "encoder": "linear",
+     "max_seconds": 0.0098,
+     "question": "size_range",
+     "seconds": 0.752,
+     "status": {
+      "answered": 80
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "polynomial",
+     "max_seconds": 0.1651,
+     "question": "all_open",
+     "seconds": 0.165,
+     "status": {
+      "open": 1
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "polynomial",
+     "max_seconds": 0.643,
+     "question": "build",
+     "seconds": 0.643,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 1.676,
+   "session": "attacks.yaml::corr_narrow_cohort_influence"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0023,
+     "question": "build",
+     "seconds": 0.002,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0001,
+     "question": "determined_person",
+     "seconds": 0.0,
+     "status": {
+      "open": 1
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0005,
+     "question": "determined_size",
+     "seconds": 0.001,
+     "status": {
+      "open": 1
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0021,
+     "question": "person_range",
+     "seconds": 0.002,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0021,
+     "question": "size_range",
+     "seconds": 0.002,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.123,
+   "session": "attacks.yaml::sum_sq_second_moment_differencing"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0017,
+     "question": "build",
+     "seconds": 0.002,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.029,
+   "session": "attacks.yaml::cross_view_differencing_declared_quantity"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0049,
+     "question": "build",
+     "seconds": 0.005,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 63,
+     "encoder": "linear",
+     "max_seconds": 0.0001,
+     "question": "determined_person",
+     "seconds": 0.006,
+     "status": {
+      "open": 63
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0007,
+     "question": "determined_size",
+     "seconds": 0.001,
+     "status": {
+      "open": 1
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0037,
+     "question": "size_range",
+     "seconds": 0.004,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.179,
+   "session": "attacks.yaml::tracker_inclusion_exclusion"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0039,
+     "question": "build",
+     "seconds": 0.004,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 32,
+     "encoder": "linear",
+     "max_seconds": 0.0001,
+     "question": "determined_person",
+     "seconds": 0.003,
+     "status": {
+      "open": 32
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0007,
+     "question": "determined_size",
+     "seconds": 0.001,
+     "status": {
+      "open": 1
+     }
+    },
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0032,
+     "question": "size_range",
+     "seconds": 0.003,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.181,
+   "session": "attacks.yaml::tracker_small_group_cell"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 2,
+     "encoder": "linear",
+     "max_seconds": 0.0057,
+     "question": "build",
+     "seconds": 0.008,
+     "status": {
+      "answered": 2
+     }
+    },
+    {
+     "asked": 31,
+     "encoder": "linear",
+     "max_seconds": 0.001,
+     "question": "determined_person",
+     "seconds": 0.007,
+     "status": {
+      "open": 31
+     }
+    },
+    {
+     "asked": 31,
+     "encoder": "linear",
+     "max_seconds": 0.0071,
+     "question": "person_range",
+     "seconds": 0.184,
+     "status": {
+      "answered": 31
+     }
+    }
+   ],
+   "seconds": 0.367,
+   "session": "attacks.yaml::tracker_across_views"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0028,
+     "question": "build",
+     "seconds": 0.003,
+     "status": {
+      "answered": 1
+     }
+    },
+    {
+     "asked": 9,
+     "encoder": "linear",
+     "max_seconds": 0.0001,
+     "question": "determined_person",
+     "seconds": 0.001,
+     "status": {
+      "open": 9
+     }
+    },
+    {
+     "asked": 2,
+     "encoder": "linear",
+     "max_seconds": 0.0005,
+     "question": "determined_size",
+     "seconds": 0.001,
+     "status": {
+      "open": 2
+     }
+    },
+    {
+     "asked": 2,
+     "encoder": "linear",
+     "max_seconds": 0.0024,
+     "question": "size_range",
+     "seconds": 0.005,
+     "status": {
+      "answered": 2
+     }
+    }
+   ],
+   "seconds": 0.171,
+   "session": "attacks.yaml::small_group_union"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 2,
+     "encoder": "linear",
+     "max_seconds": 0.0175,
+     "question": "build",
+     "seconds": 0.018,
+     "status": {
+      "answered": 2
+     }
+    },
+    {
+     "asked": 54,
+     "encoder": "linear",
+     "max_seconds": 0.0108,
+     "question": "determined_person",
+     "seconds": 0.016,
+     "status": {
+      "open": 54
+     }
+    }
+   ],
+   "seconds": 2.083,
+   "session": "nightplay::causal-after-adjustment"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "nightplay::harm-over-time"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0077,
+     "question": "build",
+     "seconds": 0.008,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 1.966,
+   "session": "nightplay::headline-association"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 2,
+     "encoder": "linear",
+     "max_seconds": 0.0047,
+     "question": "build",
+     "seconds": 0.006,
+     "status": {
+      "answered": 2
+     }
+    }
+   ],
+   "seconds": 0.567,
+   "session": "nightplay::planted-null"
+  },
+  {
+   "polynomial": [],
+   "questions": [],
+   "seconds": 0.0,
+   "session": "nightplay::small-region"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 2,
+     "encoder": "linear",
+     "max_seconds": 0.0115,
+     "question": "build",
+     "seconds": 0.016,
+     "status": {
+      "answered": 2
+     }
+    }
+   ],
+   "seconds": 0.66,
+   "session": "nightplay::when-in-the-year"
+  },
+  {
+   "polynomial": [],
+   "questions": [
+    {
+     "asked": 1,
+     "encoder": "linear",
+     "max_seconds": 0.0207,
+     "question": "build",
+     "seconds": 0.021,
+     "status": {
+      "answered": 1
+     }
+    }
+   ],
+   "seconds": 0.623,
+   "session": "nightplay::which-products"
+  }
+ ],
+ "summary": {
+  "linear": {
+   "asked": 881,
+   "max_seconds": 0.0456,
+   "seconds": 2.418,
+   "unknown": 0
+  },
+  "polynomial": {
+   "asked": 2,
+   "max_seconds": 0.643,
+   "seconds": 0.808,
+   "unknown": 0
+  }
+ }
+}

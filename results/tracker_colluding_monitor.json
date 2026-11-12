@@ -1,0 +1,542 @@
+{
+  "threshold": 10,
+  "budget": 20,
+  "quasi_identifiers": [
+    "age_band",
+    "sex",
+    "region",
+    "income_band",
+    "device_os"
+  ],
+  "one_person": false,
+  "population": "monitor",
+  "measure": "donor_spend.total_spend_gbp, sum",
+  "donors": 800,
+  "seeds": {
+    "7": {
+      "attack_per_session": {
+        "targets_with_declared_values": 800,
+        "unique_or_small_on_some_dims": 800,
+        "never_below_threshold": 0,
+        "exact_total_recovered": 800,
+        "of_which_one_person": 324,
+        "of_which_small_group": 476,
+        "small_group_sizes": {
+          "8": 127,
+          "7": 88,
+          "6": 74,
+          "9": 83,
+          "5": 65,
+          "4": 28,
+          "3": 11
+        },
+        "blocked_by_an_unreleasable_query": 0,
+        "flagged_in_the_audit_log": 800,
+        "held_for_review": 0,
+        "dims_needed": {
+          "3": 394,
+          "4": 281,
+          "2": 47,
+          "5": 78
+        },
+        "queries_per_recovery_median": 8.0,
+        "sessions_per_recovery": {
+          "2": 526,
+          "4": 73,
+          "3": 121,
+          "6": 34,
+          "5": 33,
+          "7": 6,
+          "8": 6,
+          "9": 1
+        },
+        "sessions_per_recovery_max": 9,
+        "max_abs_error": 0.0,
+        "one_person_true_total_median": 13.855,
+        "if_sums_rounded": {
+          "1": {
+            "one_person_abs_error_median": 0.93,
+            "one_person_within_1_pound": 181,
+            "one_person_within_10_percent": 224
+          },
+          "10": {
+            "one_person_abs_error_median": 8.125,
+            "one_person_within_1_pound": 33,
+            "one_person_within_10_percent": 46
+          },
+          "100": {
+            "one_person_abs_error_median": 96.36500000000001,
+            "one_person_within_1_pound": 14,
+            "one_person_within_10_percent": 3
+          }
+        }
+      },
+      "attack_seconds": 548.7,
+      "examples": [
+        {
+          "donor": "D00000",
+          "dims": [
+            "age_band",
+            "sex",
+            "region"
+          ],
+          "size": 8,
+          "recovered_set_size": 8,
+          "true_total": 584.92,
+          "recovered_total": 584.92,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 0.92,
+          "abs_error_if_rounded_10": 5.08,
+          "abs_error_if_rounded_100": 15.08,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00001",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 7,
+          "recovered_set_size": 7,
+          "true_total": 107.42,
+          "recovered_total": 107.42,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 0.42,
+          "abs_error_if_rounded_10": 12.58,
+          "abs_error_if_rounded_100": 92.58,
+          "sessions": 4,
+          "asked": 19,
+          "queries": 16,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00002",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 15.95,
+          "recovered_total": 15.95,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 2.05,
+          "abs_error_if_rounded_10": 4.05,
+          "abs_error_if_rounded_100": 184.05,
+          "sessions": 4,
+          "asked": 19,
+          "queries": 16,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00003",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 15.54,
+          "recovered_total": 15.54,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 1.46,
+          "abs_error_if_rounded_10": 4.46,
+          "abs_error_if_rounded_100": 184.46,
+          "sessions": 2,
+          "asked": 17,
+          "queries": 16,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00004",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 8,
+          "recovered_set_size": 8,
+          "true_total": 196.29,
+          "recovered_total": 196.29,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 0.71,
+          "abs_error_if_rounded_10": 13.71,
+          "abs_error_if_rounded_100": 103.71,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        }
+      ]
+    },
+    "11": {
+      "attack_per_session": {
+        "targets_with_declared_values": 800,
+        "unique_or_small_on_some_dims": 800,
+        "never_below_threshold": 0,
+        "exact_total_recovered": 800,
+        "of_which_one_person": 303,
+        "of_which_small_group": 497,
+        "small_group_sizes": {
+          "6": 113,
+          "7": 112,
+          "8": 83,
+          "9": 102,
+          "5": 50,
+          "4": 27,
+          "3": 8,
+          "2": 2
+        },
+        "blocked_by_an_unreleasable_query": 0,
+        "flagged_in_the_audit_log": 800,
+        "held_for_review": 0,
+        "dims_needed": {
+          "3": 382,
+          "4": 257,
+          "5": 90,
+          "2": 71
+        },
+        "queries_per_recovery_median": 8.0,
+        "sessions_per_recovery": {
+          "2": 501,
+          "4": 58,
+          "7": 28,
+          "3": 147,
+          "9": 4,
+          "6": 20,
+          "5": 37,
+          "8": 5
+        },
+        "sessions_per_recovery_max": 9,
+        "max_abs_error": 0.0,
+        "one_person_true_total_median": 16.95,
+        "if_sums_rounded": {
+          "1": {
+            "one_person_abs_error_median": 1.02,
+            "one_person_within_1_pound": 142,
+            "one_person_within_10_percent": 207
+          },
+          "10": {
+            "one_person_abs_error_median": 8.03,
+            "one_person_within_1_pound": 37,
+            "one_person_within_10_percent": 59
+          },
+          "100": {
+            "one_person_abs_error_median": 83.05,
+            "one_person_within_1_pound": 8,
+            "one_person_within_10_percent": 1
+          }
+        }
+      },
+      "attack_seconds": 465.9,
+      "examples": [
+        {
+          "donor": "D00000",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 6,
+          "recovered_set_size": 6,
+          "true_total": 156.84,
+          "recovered_total": 156.84,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 1.16,
+          "abs_error_if_rounded_10": 3.16,
+          "abs_error_if_rounded_100": 143.16,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00001",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 6,
+          "recovered_set_size": 6,
+          "true_total": 66.83,
+          "recovered_total": 66.83,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 0.17,
+          "abs_error_if_rounded_10": 16.83,
+          "abs_error_if_rounded_100": 233.17,
+          "sessions": 4,
+          "asked": 19,
+          "queries": 16,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00002",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 7,
+          "recovered_set_size": 7,
+          "true_total": 198.55,
+          "recovered_total": 198.55,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 0.55,
+          "abs_error_if_rounded_10": 11.45,
+          "abs_error_if_rounded_100": 1.45,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00003",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band",
+            "device_os"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 7.99,
+          "recovered_total": 7.99,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 1.01,
+          "abs_error_if_rounded_10": 47.99,
+          "abs_error_if_rounded_100": 492.01,
+          "sessions": 7,
+          "asked": 38,
+          "queries": 32,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00004",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 3.97,
+          "recovered_total": 3.97,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 2.03,
+          "abs_error_if_rounded_10": 13.97,
+          "abs_error_if_rounded_100": 96.03,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        }
+      ]
+    },
+    "23": {
+      "attack_per_session": {
+        "targets_with_declared_values": 800,
+        "unique_or_small_on_some_dims": 800,
+        "never_below_threshold": 0,
+        "exact_total_recovered": 800,
+        "of_which_one_person": 281,
+        "of_which_small_group": 519,
+        "small_group_sizes": {
+          "8": 111,
+          "3": 8,
+          "5": 52,
+          "7": 96,
+          "9": 144,
+          "6": 76,
+          "4": 30,
+          "2": 2
+        },
+        "blocked_by_an_unreleasable_query": 0,
+        "flagged_in_the_audit_log": 800,
+        "held_for_review": 0,
+        "dims_needed": {
+          "2": 64,
+          "3": 376,
+          "4": 292,
+          "5": 68
+        },
+        "queries_per_recovery_median": 8.0,
+        "sessions_per_recovery": {
+          "2": 513,
+          "4": 46,
+          "3": 173,
+          "6": 19,
+          "7": 11,
+          "5": 25,
+          "8": 6,
+          "10": 4,
+          "9": 2,
+          "11": 1
+        },
+        "sessions_per_recovery_max": 11,
+        "max_abs_error": 0.0,
+        "one_person_true_total_median": 17.96,
+        "if_sums_rounded": {
+          "1": {
+            "one_person_abs_error_median": 1.0,
+            "one_person_within_1_pound": 139,
+            "one_person_within_10_percent": 192
+          },
+          "10": {
+            "one_person_abs_error_median": 8.05,
+            "one_person_within_1_pound": 20,
+            "one_person_within_10_percent": 56
+          },
+          "100": {
+            "one_person_abs_error_median": 76.03,
+            "one_person_within_1_pound": 13,
+            "one_person_within_10_percent": 9
+          }
+        }
+      },
+      "attack_seconds": 442.3,
+      "examples": [
+        {
+          "donor": "D00000",
+          "dims": [
+            "region",
+            "income_band"
+          ],
+          "size": 8,
+          "recovered_set_size": 8,
+          "true_total": 332.68,
+          "recovered_total": 332.68,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 0.32,
+          "abs_error_if_rounded_10": 2.68,
+          "abs_error_if_rounded_100": 32.68,
+          "sessions": 2,
+          "asked": 5,
+          "queries": 4,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00001",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 15.97,
+          "recovered_total": 15.97,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 1.03,
+          "abs_error_if_rounded_10": 4.03,
+          "abs_error_if_rounded_100": 84.03,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00002",
+          "dims": [
+            "age_band",
+            "sex",
+            "region",
+            "income_band"
+          ],
+          "size": 8,
+          "recovered_set_size": 8,
+          "true_total": 297.5,
+          "recovered_total": 297.5,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 0.5,
+          "abs_error_if_rounded_10": 2.5,
+          "abs_error_if_rounded_100": 2.5,
+          "sessions": 4,
+          "asked": 19,
+          "queries": 16,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00003",
+          "dims": [
+            "age_band",
+            "region",
+            "income_band"
+          ],
+          "size": 3,
+          "recovered_set_size": 3,
+          "true_total": 105.86,
+          "recovered_total": 105.86,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 0.14,
+          "abs_error_if_rounded_10": 4.14,
+          "abs_error_if_rounded_100": 5.86,
+          "sessions": 2,
+          "asked": 9,
+          "queries": 8,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        },
+        {
+          "donor": "D00004",
+          "dims": [
+            "age_band",
+            "sex"
+          ],
+          "size": 1,
+          "recovered_set_size": 1,
+          "true_total": 0.79,
+          "recovered_total": 0.79,
+          "abs_error": 0.0,
+          "abs_error_if_rounded_1": 0.21,
+          "abs_error_if_rounded_10": 9.21,
+          "abs_error_if_rounded_100": 99.21,
+          "sessions": 2,
+          "asked": 5,
+          "queries": 4,
+          "unreleasable": 0,
+          "flagged": true,
+          "held": false
+        }
+      ]
+    }
+  }
+}

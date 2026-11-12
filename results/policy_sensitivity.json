@@ -1,0 +1,3818 @@
+{
+  "dials": {
+    "min_cell_size": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "round_base": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "dom_threshold": [
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "influence_threshold": [
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "moment2_dom_threshold": [
+      null,
+      0.5,
+      0.65,
+      0.8
+    ],
+    "max_output_rows": [
+      50,
+      100,
+      150,
+      200
+    ],
+    "query_budget": [
+      25,
+      50,
+      75,
+      95
+    ],
+    "probe_limit": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "budget_window_hours": [
+      12,
+      24,
+      48,
+      72
+    ]
+  },
+  "not_screened": {
+    "selection_budget_bits": "spent only by a locked plan's contingencies (R20); no attack or workload here declares one, so its effect would be zero by construction",
+    "cross_person_audit": "a mode, not a number, and with one person per evaluation there is nobody else's release to combine with",
+    "response_quantum_ms": "the timing channel, measured on the wall clock (D5)",
+    "response_ceiling_ms": "the timing channel, measured on the wall clock (D5)",
+    "vetter": "a choice of rule set, measured on its own (artifacts/composite_cost.json)",
+    "checker_cmd": "configures the external vetter named by `vetter`",
+    "differencing_delta": "its floor sets it to `min_cell_size` (hardening #127), so it moves with the cell floor; the screen with it apart, and the rank audit at either, is artifacts/policy_sensitivity_audit_at_floor.json"
+  },
+  "levels": 4,
+  "trajectories": 10,
+  "seed": 0,
+  "workloads": [
+    "tables",
+    "strata"
+  ],
+  "out_of": {
+    "disclosed": 31,
+    "cells": 67156,
+    "review": 1102,
+    "models": 1149,
+    "refused_tables": 75,
+    "capped_tables": 75,
+    "capped_timing_tables": 75,
+    "refused_strata": 267,
+    "capped_strata": 267,
+    "capped_timing_strata": 267
+  },
+  "at_defaults": {
+    "disclosed": 0,
+    "refusal_bits": 44.86,
+    "cells": 28049,
+    "review": 54,
+    "models": 310,
+    "days_tables": 1.0,
+    "refused_tables": 15,
+    "capped_tables": 0,
+    "capped_timing_tables": 0,
+    "days_strata": 3.0,
+    "refused_strata": 122,
+    "capped_strata": 0,
+    "capped_timing_strata": 0
+  },
+  "screen": {
+    "disclosed": {
+      "min_cell_size": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    },
+    "refusal_bits": {
+      "min_cell_size": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 11.312,
+        "change_conf": 3.4472429793692454,
+        "spread": 10.416526185719391
+      },
+      "probe_limit": {
+        "change": 13.848999999999997,
+        "change_conf": 3.6943851485638235,
+        "spread": 6.320359430707509
+      },
+      "budget_window_hours": {
+        "change": 1.9419999999999997,
+        "change_conf": 3.65430286351397,
+        "spread": 6.14114321604699
+      }
+    },
+    "cells": {
+      "min_cell_size": {
+        "change": 4406.0,
+        "change_conf": 917.512314162158,
+        "spread": 1588.581547586819
+      },
+      "round_base": {
+        "change": 3.6,
+        "change_conf": 1.3911655422779037,
+        "spread": 4.022160834399561
+      },
+      "dom_threshold": {
+        "change": 2314.7999999999997,
+        "change_conf": 918.1359872683149,
+        "spread": 1592.9749806223854
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 7756.099999999999,
+        "change_conf": 3046.323036106622,
+        "spread": 5107.160908415207
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    },
+    "review": {
+      "min_cell_size": {
+        "change": 18.9,
+        "change_conf": 7.807419785560318,
+        "spread": 13.519122259476266
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 18.2,
+        "change_conf": 19.485119001692198,
+        "spread": 33.16222750861789
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 91.0,
+        "change_conf": 43.170763012475135,
+        "spread": 72.27109457529414
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    },
+    "models": {
+      "min_cell_size": {
+        "change": 37.5,
+        "change_conf": 5.2290787444366345,
+        "spread": 8.566731517264264
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 17.9,
+        "change_conf": 1.78478235446258,
+        "spread": 2.9608557321603266
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 2.5999999999999996,
+        "change_conf": 3.463163253444192,
+        "spread": 5.660781257427676
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    },
+    "days_tables": {
+      "min_cell_size": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 0.3,
+        "change_conf": 0.2728392247320204,
+        "spread": 0.5676462121975467
+      },
+      "probe_limit": {
+        "change": 1.4,
+        "change_conf": 1.066316292407219,
+        "spread": 1.837873166945363
+      },
+      "budget_window_hours": {
+        "change": 2.1999999999999997,
+        "change_conf": 0.8165414945783743,
+        "spread": 1.3984117975602022
+      }
+    },
+    "refused_tables": {
+      "min_cell_size": {
+        "change": 3.3999999999999995,
+        "change_conf": 0.5873297492576661,
+        "spread": 0.9660917830792958
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 0.09999999999999999,
+        "change_conf": 0.18664897567948147,
+        "spread": 0.31622776601683794
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    },
+    "capped_tables": {
+      "min_cell_size": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    },
+    "capped_timing_tables": {
+      "min_cell_size": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    },
+    "days_strata": {
+      "min_cell_size": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 0.3,
+        "change_conf": 0.3968942388641059,
+        "spread": 0.674948557710553
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 6.6,
+        "change_conf": 3.242261716571994,
+        "spread": 5.621387729022079
+      },
+      "probe_limit": {
+        "change": 0.95,
+        "change_conf": 1.440510084962237,
+        "spread": 2.499444382702328
+      },
+      "budget_window_hours": {
+        "change": 8.2,
+        "change_conf": 4.3077355119488,
+        "spread": 7.238784428341543
+      }
+    },
+    "refused_strata": {
+      "min_cell_size": {
+        "change": 35.699999999999996,
+        "change_conf": 11.867955800233917,
+        "spread": 19.533731509024758
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 1.5999999999999999,
+        "change_conf": 0.7157038501650665,
+        "spread": 1.2649110640673515
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    },
+    "capped_strata": {
+      "min_cell_size": {
+        "change": 1.2,
+        "change_conf": 0.9172875930541206,
+        "spread": 1.5491933384829668
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 0.9,
+        "change_conf": 0.8470216825322702,
+        "spread": 1.4491376746189435
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    },
+    "capped_timing_strata": {
+      "min_cell_size": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "round_base": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "influence_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "moment2_dom_threshold": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "max_output_rows": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "query_budget": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "probe_limit": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      },
+      "budget_window_hours": {
+        "change": 0.0,
+        "change_conf": 0.0,
+        "spread": 0.0
+      }
+    }
+  },
+  "disclosing": [],
+  "evaluations": [
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 23177,
+        "review": 38,
+        "models": 279,
+        "days_tables": 6.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 200.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 23177,
+        "review": 38,
+        "models": 279,
+        "days_tables": 6.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 204.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 23177,
+        "review": 38,
+        "models": 279,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 198.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 28267,
+        "review": 44,
+        "models": 301,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 215.1
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 28267,
+        "review": 44,
+        "models": 301,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 217.0
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 10,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 23839,
+        "review": 18,
+        "models": 255,
+        "days_tables": 2.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 422.2
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 20,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 23842,
+        "review": 18,
+        "models": 255,
+        "days_tables": 2.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 426.4
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 20,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 23842,
+        "review": 18,
+        "models": 255,
+        "days_tables": 2.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 418.7
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 20,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 75,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 44.86,
+        "cells": 23842,
+        "review": 18,
+        "models": 255,
+        "days_tables": 1.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 412.0
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 20,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 200,
+        "query_budget": 75,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 44.86,
+        "cells": 25846,
+        "review": 0,
+        "models": 255,
+        "days_tables": 1.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 419.4
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 20,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 200,
+        "query_budget": 50,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.12,
+        "cells": 30191,
+        "review": 0,
+        "models": 307,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 261.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 20,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 200,
+        "query_budget": 50,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.12,
+        "cells": 30191,
+        "review": 0,
+        "models": 307,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 255.0
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 20,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 200,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 30191,
+        "review": 0,
+        "models": 307,
+        "days_tables": 1.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 255.2
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 20,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 26160,
+        "review": 34,
+        "models": 307,
+        "days_tables": 1.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 258.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 20,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 24398,
+        "review": 30,
+        "models": 290,
+        "days_tables": 1.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 250.0
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 10,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 24397,
+        "review": 30,
+        "models": 290,
+        "days_tables": 1.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 259.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 28636,
+        "review": 48,
+        "models": 316,
+        "days_tables": 1.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 199.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 28636,
+        "review": 48,
+        "models": 316,
+        "days_tables": 2.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 202.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": null,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 28636,
+        "review": 48,
+        "models": 300,
+        "days_tables": 2.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 213.4
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": null,
+        "max_output_rows": 100,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 28636,
+        "review": 48,
+        "models": 300,
+        "days_tables": 2.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 4.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 213.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 22526,
+        "review": 0,
+        "models": 240,
+        "days_tables": 2.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 4.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 346.4
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 22526,
+        "review": 0,
+        "models": 240,
+        "days_tables": 2.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 4.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 357.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 26858,
+        "review": 8,
+        "models": 279,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 4.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 204.2
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 26862,
+        "review": 8,
+        "models": 279,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 4.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 202.5
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 26862,
+        "review": 8,
+        "models": 279,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 2.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 196.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 17177,
+        "review": 126,
+        "models": 279,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 2.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 198.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 17146,
+        "review": 207,
+        "models": 301,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 2.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 212.7
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 95,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 29.79,
+        "cells": 17146,
+        "review": 207,
+        "models": 301,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 213.4
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 50,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.12,
+        "cells": 17146,
+        "review": 207,
+        "models": 301,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 215.5
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 50,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.12,
+        "cells": 17146,
+        "review": 207,
+        "models": 301,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 231.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 75,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 44.86,
+        "cells": 23835,
+        "review": 18,
+        "models": 255,
+        "days_tables": 1.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 418.7
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 75,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 44.86,
+        "cells": 20522,
+        "review": 18,
+        "models": 240,
+        "days_tables": 1.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 337.5
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 75,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 27.71,
+        "cells": 20522,
+        "review": 18,
+        "models": 240,
+        "days_tables": 2.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 324.0
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 12,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 20522,
+        "review": 18,
+        "models": 240,
+        "days_tables": 1.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 330.5
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 20522,
+        "review": 18,
+        "models": 240,
+        "days_tables": 4.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 20.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 332.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 200,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 22520,
+        "review": 0,
+        "models": 240,
+        "days_tables": 4.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 20.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 329.2
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.65,
+        "max_output_rows": 200,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 22520,
+        "review": 0,
+        "models": 240,
+        "days_tables": 4.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 20.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 352.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": null,
+        "max_output_rows": 200,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 22520,
+        "review": 0,
+        "models": 230,
+        "days_tables": 4.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 20.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 328.7
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 5,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": null,
+        "max_output_rows": 200,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 22522,
+        "review": 0,
+        "models": 230,
+        "days_tables": 4.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 20.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 324.4
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 5,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": null,
+        "max_output_rows": 200,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 48,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 27859,
+        "review": 2,
+        "models": 267,
+        "days_tables": 4.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 20.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 188.2
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 50,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.12,
+        "cells": 15334,
+        "review": 96,
+        "models": 240,
+        "days_tables": 6.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 15.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 323.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 15334,
+        "review": 96,
+        "models": 240,
+        "days_tables": 3.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 15.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 318.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 50,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 15334,
+        "review": 96,
+        "models": 240,
+        "days_tables": 3.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 15.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 317.1
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 50,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 15334,
+        "review": 96,
+        "models": 240,
+        "days_tables": 3.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 316.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 22526,
+        "review": 0,
+        "models": 240,
+        "days_tables": 3.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 316.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 10,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 25843,
+        "review": 0,
+        "models": 255,
+        "days_tables": 3.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 421.1
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 20,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 25846,
+        "review": 0,
+        "models": 255,
+        "days_tables": 3.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 403.5
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 32484,
+        "review": 10,
+        "models": 301,
+        "days_tables": 3.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 206.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 32484,
+        "review": 10,
+        "models": 301,
+        "days_tables": 3.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 208.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 32484,
+        "review": 10,
+        "models": 301,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 2.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 219.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 5,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 50,
+        "query_budget": 95,
+        "probe_limit": 9,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 40.25,
+        "cells": 17141,
+        "review": 207,
+        "models": 301,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 2.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 212.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 5,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 9,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 40.25,
+        "cells": 32479,
+        "review": 10,
+        "models": 301,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 2.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 210.5
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 9,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 40.25,
+        "cells": 32484,
+        "review": 10,
+        "models": 301,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 2.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 202.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 9,
+        "budget_window_hours": 24,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 40.25,
+        "cells": 25839,
+        "review": 0,
+        "models": 255,
+        "days_tables": 1.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 2.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 416.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 9,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 40.25,
+        "cells": 25839,
+        "review": 0,
+        "models": 255,
+        "days_tables": 2.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 4.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 409.4
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 95,
+        "probe_limit": 3,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.13,
+        "cells": 25839,
+        "review": 0,
+        "models": 255,
+        "days_tables": 8.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 12.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 392.0
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 50,
+        "probe_limit": 3,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 14.35,
+        "cells": 25839,
+        "review": 0,
+        "models": 255,
+        "days_tables": 8.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 16.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 391.7
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 50,
+        "probe_limit": 3,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 14.35,
+        "cells": 22520,
+        "review": 0,
+        "models": 240,
+        "days_tables": 8.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 14.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 315.5
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 50,
+        "probe_limit": 3,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 14.35,
+        "cells": 22520,
+        "review": 0,
+        "models": 240,
+        "days_tables": 8.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 14.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 320.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 50,
+        "probe_limit": 3,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 14.35,
+        "cells": 22520,
+        "review": 0,
+        "models": 240,
+        "days_tables": 8.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 14.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 317.2
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 50,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 16284,
+        "review": 117,
+        "models": 249,
+        "days_tables": 6.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 398.2
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 50,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 16284,
+        "review": 117,
+        "models": 249,
+        "days_tables": 6.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 403.1
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 16284,
+        "review": 117,
+        "models": 249,
+        "days_tables": 6.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 145,
+        "capped_strata": 3,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 409.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 18412,
+        "review": 166,
+        "models": 293,
+        "days_tables": 6.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 206.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 30455,
+        "review": 10,
+        "models": 293,
+        "days_tables": 6.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 207.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 75,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 27.71,
+        "cells": 30455,
+        "review": 10,
+        "models": 293,
+        "days_tables": 6.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 9.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 207.1
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 75,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 27.71,
+        "cells": 30455,
+        "review": 10,
+        "models": 293,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 208.1
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 75,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 27.71,
+        "cells": 30462,
+        "review": 10,
+        "models": 293,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 201.7
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 75,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 27.71,
+        "cells": 33218,
+        "review": 12,
+        "models": 310,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 4.0,
+        "refused_strata": 122,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 205.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 150,
+        "query_budget": 75,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 27.71,
+        "cells": 33218,
+        "review": 12,
+        "models": 310,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 4.0,
+        "refused_strata": 122,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 205.7
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 200,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 34541,
+        "review": 6,
+        "models": 316,
+        "days_tables": 6.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 196.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 200,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 34541,
+        "review": 6,
+        "models": 316,
+        "days_tables": 6.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 200.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.2,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 28636,
+        "review": 48,
+        "models": 316,
+        "days_tables": 6.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 205.6
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 6,
+        "budget_window_hours": 72,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 17.91,
+        "cells": 28636,
+        "review": 48,
+        "models": 316,
+        "days_tables": 6.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 195.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 72,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 28636,
+        "review": 48,
+        "models": 316,
+        "days_tables": 6.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 30.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 201.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 25,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.0,
+        "cells": 28636,
+        "review": 48,
+        "models": 316,
+        "days_tables": 2.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 202.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 75,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 44.86,
+        "cells": 28636,
+        "review": 48,
+        "models": 316,
+        "days_tables": 1.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 203.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 10,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 75,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 44.86,
+        "cells": 24397,
+        "review": 30,
+        "models": 290,
+        "days_tables": 1.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 254.2
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 10,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 100,
+        "query_budget": 75,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 44.86,
+        "cells": 24397,
+        "review": 30,
+        "models": 290,
+        "days_tables": 1.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 259.9
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 10,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.4,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 100,
+        "query_budget": 75,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 44.86,
+        "cells": 26159,
+        "review": 34,
+        "models": 307,
+        "days_tables": 1.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 254.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 20,
+        "round_base": 20,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 75,
+        "probe_limit": 9,
+        "budget_window_hours": 48,
+        "differencing_delta": 20
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.07,
+        "cells": 15334,
+        "review": 96,
+        "models": 240,
+        "days_tables": 2.0,
+        "refused_tables": 18,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 142,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 334.0
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 15,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 75,
+        "probe_limit": 9,
+        "budget_window_hours": 48,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.07,
+        "cells": 17177,
+        "review": 126,
+        "models": 279,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 196.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 75,
+        "probe_limit": 9,
+        "budget_window_hours": 48,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.07,
+        "cells": 17173,
+        "review": 126,
+        "models": 279,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 192.7
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 75,
+        "probe_limit": 9,
+        "budget_window_hours": 48,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.07,
+        "cells": 17173,
+        "review": 126,
+        "models": 279,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 6.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 194.1
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.2,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 75,
+        "probe_limit": 9,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.07,
+        "cells": 17173,
+        "review": 126,
+        "models": 279,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 119,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 186.5
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 75,
+        "probe_limit": 9,
+        "budget_window_hours": 24,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.07,
+        "cells": 17139,
+        "review": 207,
+        "models": 301,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 3.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 208.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 50,
+        "query_budget": 25,
+        "probe_limit": 9,
+        "budget_window_hours": 12,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 45.05,
+        "cells": 17139,
+        "review": 207,
+        "models": 301,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 221.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 50,
+        "query_budget": 25,
+        "probe_limit": 9,
+        "budget_window_hours": 12,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 45.05,
+        "cells": 17139,
+        "review": 207,
+        "models": 301,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 205.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 25,
+        "probe_limit": 9,
+        "budget_window_hours": 12,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 45.05,
+        "cells": 32473,
+        "review": 10,
+        "models": 301,
+        "days_tables": 1.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 214.5
+    },
+    {
+      "settings": {
+        "min_cell_size": 10,
+        "round_base": 10,
+        "dom_threshold": 0.4,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 150,
+        "query_budget": 25,
+        "probe_limit": 3,
+        "budget_window_hours": 12,
+        "differencing_delta": 10
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.12,
+        "cells": 32473,
+        "review": 10,
+        "models": 301,
+        "days_tables": 2.0,
+        "refused_tables": 14,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.5,
+        "refused_strata": 121,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 202.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 95,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 49.18,
+        "cells": 28636,
+        "review": 48,
+        "models": 316,
+        "days_tables": 2.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 4.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 201.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 5,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 5
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 28636,
+        "review": 48,
+        "models": 316,
+        "days_tables": 2.0,
+        "refused_tables": 13,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 59,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 208.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 5,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 24405,
+        "review": 30,
+        "models": 290,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 253.1
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 15,
+        "dom_threshold": 0.3,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 24398,
+        "review": 30,
+        "models": 290,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 246.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 15,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.8,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 26162,
+        "review": 34,
+        "models": 307,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 245.3
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 15,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.3,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 26162,
+        "review": 34,
+        "models": 307,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 245.8
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 15,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 48,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 26162,
+        "review": 34,
+        "models": 307,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 10.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 243.4
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 15,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 100,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 26162,
+        "review": 34,
+        "models": 307,
+        "days_tables": 1.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 232.4
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 15,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 200,
+        "query_budget": 50,
+        "probe_limit": 12,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 37.33,
+        "cells": 30193,
+        "review": 0,
+        "models": 307,
+        "days_tables": 1.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 213.2
+    },
+    {
+      "settings": {
+        "min_cell_size": 15,
+        "round_base": 15,
+        "dom_threshold": 0.5,
+        "influence_threshold": 0.5,
+        "moment2_dom_threshold": 0.5,
+        "max_output_rows": 200,
+        "query_budget": 50,
+        "probe_limit": 6,
+        "budget_window_hours": 24,
+        "differencing_delta": 15
+      },
+      "measures": {
+        "disclosed": 0,
+        "refusal_bits": 24.12,
+        "cells": 30193,
+        "review": 0,
+        "models": 307,
+        "days_tables": 2.0,
+        "refused_tables": 15,
+        "capped_tables": 0,
+        "capped_timing_tables": 0,
+        "days_strata": 5.0,
+        "refused_strata": 123,
+        "capped_strata": 0,
+        "capped_timing_strata": 0
+      },
+      "disclosing": [],
+      "seconds": 207.5
+    }
+  ],
+  "seconds": 3479.0
+}

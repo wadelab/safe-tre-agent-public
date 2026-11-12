@@ -1,0 +1,2 @@
+Every file here is generated from a private repository by an export script.
+Edits made here are overwritten by the next export.

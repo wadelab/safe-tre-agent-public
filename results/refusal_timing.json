@@ -1,0 +1,218 @@
+{
+  "seed": 7,
+  "repeats": 60,
+  "rows": [
+    {
+      "history_releases": 0,
+      "cells": 1,
+      "timed": {
+        "probe": 60,
+        "cell": 60
+      },
+      "unexpected": {
+        "probe": {},
+        "cell": {}
+      },
+      "probe_ms_median": 19.3,
+      "cell_ms_median": 19.5,
+      "probe_ms_max": 22.8,
+      "cell_ms_max": 25.2,
+      "gap_ms_median_and_95ci": [
+        -0.2,
+        -0.6,
+        0.1
+      ],
+      "tv_by_quantum_ms": {
+        "50": 0.0,
+        "100": 0.0,
+        "250": 0.0,
+        "500": 0.0,
+        "1000": 0.0
+      },
+      "tv_null_by_quantum_ms": {
+        "50": 0.0,
+        "100": 0.0,
+        "250": 0.0,
+        "500": 0.0,
+        "1000": 0.0
+      }
+    },
+    {
+      "history_releases": 250,
+      "cells": 1246,
+      "timed": {
+        "probe": 60,
+        "cell": 60
+      },
+      "unexpected": {
+        "probe": {},
+        "cell": {}
+      },
+      "probe_ms_median": 370.7,
+      "cell_ms_median": 393.3,
+      "probe_ms_max": 827.2,
+      "cell_ms_max": 830.0,
+      "gap_ms_median_and_95ci": [
+        -22.6,
+        -26.7,
+        -19.1
+      ],
+      "tv_by_quantum_ms": {
+        "50": 0.2,
+        "100": 0.2,
+        "250": 0.017,
+        "500": 0.017,
+        "1000": 0.0
+      },
+      "tv_null_by_quantum_ms": {
+        "50": 0.067,
+        "100": 0.033,
+        "250": 0.033,
+        "500": 0.033,
+        "1000": 0.0
+      }
+    },
+    {
+      "history_releases": 1000,
+      "cells": 4836,
+      "timed": {
+        "probe": 60,
+        "cell": 60
+      },
+      "unexpected": {
+        "probe": {},
+        "cell": {}
+      },
+      "probe_ms_median": 1850.9,
+      "cell_ms_median": 1888.0,
+      "probe_ms_max": 1982.2,
+      "cell_ms_max": 1994.9,
+      "gap_ms_median_and_95ci": [
+        -37.1,
+        -49.6,
+        -18.9
+      ],
+      "tv_by_quantum_ms": {
+        "50": 0.267,
+        "100": 0.267,
+        "250": 0.0,
+        "500": 0.0,
+        "1000": 0.0
+      },
+      "tv_null_by_quantum_ms": {
+        "50": 0.067,
+        "100": 0.033,
+        "250": 0.0,
+        "500": 0.0,
+        "1000": 0.0
+      }
+    }
+  ],
+  "model_rows": [
+    {
+      "history_releases": 0,
+      "cells": 2,
+      "timed": {
+        "probe": 60,
+        "cell": 60
+      },
+      "unexpected": {
+        "probe": {},
+        "cell": {}
+      },
+      "probe_ms_median": 86.3,
+      "cell_ms_median": 95.3,
+      "probe_ms_max": 101.5,
+      "cell_ms_max": 110.5,
+      "gap_ms_median_and_95ci": [
+        -9.0,
+        -9.9,
+        -8.1
+      ],
+      "tv_by_quantum_ms": {
+        "50": 0.05,
+        "100": 0.05,
+        "250": 0.0,
+        "500": 0.0,
+        "1000": 0.0
+      },
+      "tv_null_by_quantum_ms": {
+        "50": 0.033,
+        "100": 0.033,
+        "250": 0.0,
+        "500": 0.0,
+        "1000": 0.0
+      }
+    },
+    {
+      "history_releases": 250,
+      "cells": 4982,
+      "timed": {
+        "probe": 60,
+        "cell": 60
+      },
+      "unexpected": {
+        "probe": {},
+        "cell": {}
+      },
+      "probe_ms_median": 1204.0,
+      "cell_ms_median": 1104.7,
+      "probe_ms_max": 2037.1,
+      "cell_ms_max": 1628.5,
+      "gap_ms_median_and_95ci": [
+        99.3,
+        92.5,
+        105.1
+      ],
+      "tv_by_quantum_ms": {
+        "50": 0.933,
+        "100": 0.583,
+        "250": 0.033,
+        "500": 0.033,
+        "1000": 0.017
+      },
+      "tv_null_by_quantum_ms": {
+        "50": 0.133,
+        "100": 0.133,
+        "250": 0.067,
+        "500": 0.067,
+        "1000": 0.033
+      }
+    },
+    {
+      "history_releases": 1000,
+      "cells": 19342,
+      "timed": {
+        "probe": 60,
+        "cell": 60
+      },
+      "unexpected": {
+        "probe": {},
+        "cell": {}
+      },
+      "probe_ms_median": 6095.9,
+      "cell_ms_median": 5670.1,
+      "probe_ms_max": 8473.6,
+      "cell_ms_max": 6500.0,
+      "gap_ms_median_and_95ci": [
+        425.7,
+        406.2,
+        440.5
+      ],
+      "tv_by_quantum_ms": {
+        "50": 1.0,
+        "100": 0.983,
+        "250": 0.967,
+        "500": 0.95,
+        "1000": 0.95
+      },
+      "tv_null_by_quantum_ms": {
+        "50": 0.167,
+        "100": 0.1,
+        "250": 0.067,
+        "500": 0.067,
+        "1000": 0.067
+      }
+    }
+  ]
+}

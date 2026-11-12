@@ -1,0 +1,756 @@
+{
+ "sessions": [
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::grouping_unsupported_breakdown",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::grouping_swapped_dimension",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::grouping_dropped_dimension",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::grouping_faithful_baseline",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "donor_spend: unread: step 1: a model release, whose frames are not read as cells"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::glm_benign_baseline",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::glm_small_cell_design",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "spend: withheld: table at step 1 (10 left out): several rows per person, so a threshold on people bounds no row count",
+    "spend: refusal: step 2: a model request, whose causes are its procedure's"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::glm_saturated_recovery_of_suppressed_cell",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "redacted",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::glm_internal_var_predictor",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::glm_response_swap",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::glm_dropped_term",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::glm_residuals_request",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "donor_spend: unread: step 1: a model release, whose frames are not read as cells",
+    "donor_spend: refusal: step 2: a model request, whose causes are its procedure's"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::glm_differencing_pair",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::glm_separated_level",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "spend: unread: step 1: a model release, whose frames are not read as cells"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::literal_spec_benign_baseline",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::literal_spec_small_cell_design",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::age_range_sweep_step",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::exact_age_probe",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "residual": null,
+   "session": "attacks.yaml::double_differencing_two_common_dims",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "spend: refusal: step 2: several rows per person, so a threshold on people bounds no row count"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::donor_delta_differencing",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "spend: sign: amount_gbp: declared non-negative, but the view holds a negative value (the startup data check was not enforced)",
+    "spend: count: cell 1: amount_gbp has a missing or non-finite value, so the cell's count is not of the view's rows",
+    "spend: count: cell 3: amount_gbp has a missing or non-finite value, so the cell's count is not of the view's rows",
+    "spend: count: cell 5: amount_gbp has a missing or non-finite value, so the cell's count is not of the view's rows",
+    "spend: count: cell 7: amount_gbp has a missing or non-finite value, so the cell's count is not of the view's rows",
+    "spend: dominance: sum|amount_gbp: not declared non-negative, and the rule is over absolute values",
+    "spend: withheld: table at step 1 (8 left out): several rows per person, so a threshold on people bounds no row count"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::adversarial_negative_dominance",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "redacted"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "spend: sign: amount_gbp: declared non-negative, but the view holds a negative value (the startup data check was not enforced)",
+    "spend: mean: cell 0: amount_gbp has a missing or non-finite value",
+    "spend: count: cell 1: amount_gbp has a missing or non-finite value, so the cell's count is not of the view's rows",
+    "spend: mean: cell 2: amount_gbp has a missing or non-finite value",
+    "spend: count: cell 3: amount_gbp has a missing or non-finite value, so the cell's count is not of the view's rows",
+    "spend: mean: cell 4: amount_gbp has a missing or non-finite value",
+    "spend: count: cell 5: amount_gbp has a missing or non-finite value, so the cell's count is not of the view's rows",
+    "spend: mean: cell 6: amount_gbp has a missing or non-finite value",
+    "spend: count: cell 7: amount_gbp has a missing or non-finite value, so the cell's count is not of the view's rows",
+    "spend: withheld: table at step 1 (8 left out): several rows per person, so a threshold on people bounds no row count"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::adversarial_nonfinite_payload",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "redacted"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::adversarial_undeclared_category",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "redacted"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "spend: withheld: table at step 1 (12 left out): several rows per person, so a threshold on people bounds no row count"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::adversarial_hyperactive_donor",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "redacted"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "donor_spend: correlation: cell 0: a polynomial statement, made only by the polynomial encoder",
+    "donor_spend: correlation: cell 2: a polynomial statement, made only by the polynomial encoder",
+    "donor_spend: correlation: cell 4: a polynomial statement, made only by the polynomial encoder",
+    "donor_spend: correlation: cell 6: a polynomial statement, made only by the polynomial encoder",
+    "donor_spend: correlation: cell 8: a polynomial statement, made only by the polynomial encoder",
+    "donor_spend: correlation: cell 10: a polynomial statement, made only by the polynomial encoder"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::corr_internal_age_measure",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "donor_spend: influence: cell 0: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 2: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 4: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 6: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 8: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 10: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 12: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 14: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 16: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 18: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 20: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 22: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: influence: cell 24: the influence control is not stated (Z3 gives no answer within a minute at ten listed people)",
+    "donor_spend: withheld: table at step 1 (80 left out): a correlation's cell may be withheld for influence, which is not stated"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::corr_narrow_cohort_influence",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "redacted"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "donor_spend: refusal: step 2: the lineage's public bound (published marginals) explains it"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::sum_sq_second_moment_differencing",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "residual": null,
+   "session": "attacks.yaml::cross_view_differencing_declared_quantity",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "donor_spend: refusal: refused cell over atoms [3]: an atom's people are not listed, so the dominant person may have no variable"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 3,
+   "residual": null,
+   "session": "attacks.yaml::tracker_inclusion_exclusion",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "released",
+    "released",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "donor_spend: refusal: refused cell over atoms [3]: an atom's people are not listed, so the dominant person may have no variable"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 3,
+   "residual": null,
+   "session": "attacks.yaml::tracker_small_group_cell",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "released",
+    "released",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "spend: refusal: step 4: several rows per person, so a threshold on people bounds no row count"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 3,
+   "residual": null,
+   "session": "attacks.yaml::tracker_across_views",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "released",
+    "released",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "donor_spend: refusal: refused cell over atoms [1, 3]: an atom's people are not listed, so the dominant person may have no variable"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 2,
+   "residual": null,
+   "session": "attacks.yaml::small_group_union",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "released",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "bets: unread: step 6: a model release, whose frames are not read as cells",
+    "panel: unread: step 4: a model release, whose frames are not read as cells",
+    "panel: refusal: step 1: a model request, whose causes are its procedure's"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 3,
+   "session": "nightplay::causal-after-adjustment",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied",
+    "denied",
+    "review",
+    "released",
+    "released",
+    "released",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "session": "nightplay::harm-over-time",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "panel: unread: step 4: a model release, whose frames are not read as cells",
+    "panel: correlation: cell 8: a polynomial statement, made only by the polynomial encoder",
+    "panel: dominance: sum|net_loss_gbp: not declared non-negative, and the rule is over absolute values",
+    "panel: refusal: step 3: a model request, whose causes are its procedure's",
+    "panel: refusal: step 5: a model request, whose causes are its procedure's"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 4,
+   "session": "nightplay::headline-association",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "released",
+    "denied",
+    "released",
+    "denied",
+    "released"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [
+    "panel: unread: step 3: a model release, whose frames are not read as cells",
+    "panel: correlation: cell 0: a polynomial statement, made only by the polynomial encoder"
+   ],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 3,
+   "session": "nightplay::planted-null",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "released",
+    "released"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 0,
+   "session": "nightplay::small-region",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "denied",
+    "denied",
+    "denied"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 2,
+   "session": "nightplay::when-in-the-year",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released",
+    "released"
+   ],
+   "unknown": [],
+   "value_findings": []
+  },
+  {
+   "agree": true,
+   "dropped": [],
+   "rank_group": [],
+   "rank_person": [],
+   "released_steps": 1,
+   "session": "nightplay::which-products",
+   "size_findings": [],
+   "smt_group": {},
+   "smt_person": {},
+   "statuses": [
+    "released"
+   ],
+   "unknown": [],
+   "value_findings": []
+  }
+ ],
+ "threshold": 10
+}
